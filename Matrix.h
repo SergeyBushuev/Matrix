@@ -78,6 +78,14 @@ public:
 				for (int t = 0; t < n; t++)
 				result.Matr[i][j] += Matr[i][t] + mx.Matr[t][j];
 	}
+		int getstr()
+	{
+		return m;
+	}
+	int getstl()
+	{
+		return n;
+	}
 
 };
 
